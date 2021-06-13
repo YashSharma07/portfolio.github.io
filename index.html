@@ -1,0 +1,304 @@
+<!DOCTYPE html> <!-- Tells that document is of HTML type -->
+
+<html lang="en">  
+
+<!-- head tag where meta, title and other linking is done -->
+<head>          
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title which appears on the top of the tab -->
+    <title>Portfolio || Dwayne Johnson</title>
+
+    <!-- Bootstrap CDN (a URL which is used to invoke that library into our project) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<!-- Body tags containes everything which will be on our webpage. The content, image and basically everything -->
+<body>
+
+    <!-- Header tag is a semantic tag which tells the browser that content inside it is the header content -->
+    <header>
+
+        <!-- Another semantic tag which is used to tell the browser that this is the navbar part -->
+        <nav class="navbar navbar-expand-lg navbar-dark ml-md-5 mr-md-5 mt-4">
+
+            <!-- anchor tag is used to create linking between the elements and external pages -->
+            <a class="navbar-brand " href="#"><strong><h3>Dwayne</strong> Johnson</h3></a>
+
+            <!-- Button tag  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              
+              <!-- Span tag is used to create an inline container or group -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Div tag is similar to span tag but it takes the width-block  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+              <!-- unordered lists  -->
+              <ul class="navbar-nav mr-auto">
+
+                <!-- list items are used inside the ul tag which forms the content of the list -->
+                <li class="nav-item  ml-md-5">
+                  <a class="nav-link " href="#about">About</a>
+                </li>
+                <li class="nav-item ml-md-5">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item ml-md-5">
+                    <a class="nav-link" href="#certification">Certifications</a>
+                  </li>
+              </ul>
+              <a class="mr-3 nav-link" href="https://www.linkedin.com/in/dwayne-rock-johnson-92160819a/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+              <a class="mr-3 nav-link" href="https://twitter.com/therock?lang=en" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
+              <a class="mr-3 nav-link" href="https://www.instagram.com/therock/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> </a>
+            </div>
+          </nav>
+
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 mt-5 order-2 order-md-1">
+          <div class="contentContainer mt-4">
+            <button class="btn mt-lg-5 ">Front-end Developer</button>
+            <h1 class="mt-5">First Solve The Problem, <br> Then Write The Code.</h1>
+            <h5 class="mt-4 mb-5">I love to design, develop and deploy beautiful sites,<br> and I love what I do. </h5>
+            <h4 class="mt-5 pt-5"> > <a href="#contact">Let's talk </a></h4>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-5 pl-5 mt-5 imageContainer order-1 order-md-2">
+
+          <!-- Image tag is used insert images on the web page -->
+          <img class="mt-lg-5 " style="max-width: 100%" src="image.png" alt="My picture">
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="about" class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-5">
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Design <span class="float-right"><i class="bi bi-palette-fill"></i></span></h5>
+                    <p class="card-text">From logo design to web design, I do it all.</p>
+                    <a href="#" class="btn">View projects</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 mt-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Web development <span class="float-right"><i class="bi bi-globe"></i></span></h5>
+                    <p class="card-text">Hands on experience with cutting edge web technologies.</p>
+                    <a href="#" class="btn">View projects</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 mt-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Data Structures <span class="float-right"><i class="bi bi-code-slash"></i></span></h5>
+                    <p class="card-text">Problem solving skills, prefered language Java.</p>
+                    <a href="#" class="btn">Leet code Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <div class="contentContainer pl-xl-5 mt-lg-4 ml-xl-5">
+              <h5>Introduce</h5>
+              <h1 class="mt-lg-5">Hi, I am Dwayne <br> Johnson.</h1>
+              <h5 class="mt-lg-4 mb-lg-5 text-justify"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iste ut necessitatibus doloremque exercitationem. Nisi dignissimos voluptates, repudiandae aliquam tempore optio adipisci eum vero quibusdam repellendus nobis modi cumque corrupti. </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-5">
+        <div class="row text-center">
+          <div class="col-3 "><img style="width: 60%;" src="http://assets.stickpng.com/images/58568d224f6ae202fedf2720.png" alt="" srcset=""></div>
+          <div class="col-3 pt-lg-4"><img style="width: 60%;" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c535.png" alt="" srcset=""></div>
+          <div class="col-3"><img style="width: 60%;" src="https://images.vexels.com/media/users/3/137617/isolated/preview/c45afb857e72b86e87baaf255f71ff37-geometric-logo-abstract-by-vexels.png" alt="" srcset=""></div>
+          <div class="col-3"><img style="width: 60%;" src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/AWS.png" alt="" srcset=""></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="projects">
+    <div class="mx-5 py-5 pl-lg-5 ">
+      <h1 class="mb-3" style="color: white;">Projects</h1>
+      <h5 class="mb-3" style="color: gray;">The proff of my knowledge and experience.</h5>
+      <div class="row d-flex justify-content-evenly text-center">
+        <div class="col-xl-3 col-md-6 col-12 pl-lg-5 pl-xl-0">
+          <div class="card my-5" style="width: 18rem;">
+            <img src="https://brandslogos.com/wp-content/uploads/images/large/uber-logo-black-and-white-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Uber Redesinging</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Project Files</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 pl-lg-5 pl-xl-0">
+          <div class="card my-5" style="width: 18rem;">
+            <img src="https://i.redd.it/hh01r85tpdx41.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Netflix Logo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Project Files</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 pl-lg-5 pl-xl-0">
+          <div class="card my-5" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJxqb1AyH-Ae_l25867aC9VLdd9uzFdumLXw&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Landing page</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Project Files</a>
+            </div>  
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12 pl-lg-5 pl-xl-0">
+          <div class="card my-5" style="width: 18rem;">
+            <img src="https://images-platform.99static.com//9UfcuktrY8fOW6ADibaED-Hmk5k=/0x0:1080x1080/fit-in/500x500/projects-files/54/5436/543665/d8983f60-d89d-4a13-812f-8de395f9a6c3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Qbay</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Project Files</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="certification">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-4">
+            <h1>Certifications</h1><br><br>
+          </div>
+          <div class="col-lg-8 col-12 pt-2">
+            <h5>I have excelled my skills in various domains</h5><br><br>
+          </div>
+
+          <div class="col-6">
+            <h3>2020</h3><br>
+          </div>
+          <div class="col-6">
+            <h6>Cisco IOT training</h6><br>
+            <h6>HARWAR School of designing</h6><br>
+            <h6>Reat.js, redux and Hooks Complete Bootcamp</h6><br>
+          </div>
+
+          <div class="col-6">
+            <h3>2019</h3><br>
+          </div>
+          <div class="col-6">
+            <h6>Microsoft Azure cloud services </h6><br>
+            <h6>NASA's space app challenge pre-qualifiers</h6><br>
+            <h6>Google Summer of Code, open source contribution for VLC</h6><br>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer tag is a semantic tag which tells the browser that footer content is within this tag -->
+    <footer>
+      
+      <div  id="contact">
+        <div class="container py-5">
+          <h1 style="color: white;">Let's Connect!</h1>
+        <div class="d-lg-flex justify-content-between align-items-center">
+            <div class=" d-none d-lg-block" style="color: white;">
+              <div>
+                <h5><i class="bi bi-geo-alt-fill"></i> Main Street, New Yok City, USA</h5>
+              </div>
+              <br>
+              <div>
+                <h5><i class="bi bi-telephone-fill"></i> ( +1 ) 4839234740</h5>
+              </div>
+              <br>
+              <div>
+                <h5><i class="bi bi-envelope-fill"></i> mailittoDwayne@gmail.com</h5>
+              </div>
+              <br>
+            </div>
+            <div class=" pt-3 mt-lg-5 pt-lg-0">
+                <div class="contactForm pt-5 pt-lg-0 mt-5 mx-5 mx-lg-0">
+
+                  <!-- form tag is used to create the form-->
+                    <form action="/" method="POST">
+                    <div class="input-group mb-3 ">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1">Name</span>
+                        </div>
+
+                        <!-- input tag is the area where you take inputs -->
+                        <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                      </div>
+                      
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's Email ID" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2">Email ID</span>
+                        </div>
+                      </div>
+
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1">( +1 )</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Phone Number" aria-label="Name" aria-describedby="basic-addon1">
+                      </div>
+                      
+                      
+                      <div class="input-group mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Enter Your Message" aria-label="With textarea"></textarea>
+                    </div>
+
+                    <button class="btn btn-success submit" type="submit" value="submit">Submit</button>
+
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+    </div>
+
+
+    </footer> 
+   
+
+
+    <!-- Bootstrap powered javascript CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
