@@ -1,0 +1,133 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: #333;
+}
+
+li:hover .nav-link{
+    color: #64f4ac !important;
+}
+
+li:hover .nav-link::before{
+
+    content: " < ";
+    color: #64f4ac !important;
+}
+
+li:hover .nav-link::after{
+
+    content: " > ";
+    color: #64f4ac !important;
+}
+.bi:hover{
+    color: gray;
+}
+
+.bi{
+    color: #64f4ac;
+    font-size: 22px;
+}
+
+
+.imageContainer img{
+    border-radius: 50%;
+    
+}
+
+.contentContainer .btn, .card .btn{
+    background-color: #64f4ac;
+    color: black;
+}
+.contentContainer .btn:hover, .card .btn:hover{
+    background-color: #333;
+    border: 1px solid #64f4ac;
+    color: #ffffff;
+}
+
+.contentContainer h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 62px;
+}
+
+.contentContainer h5{
+    color: gray;
+    line-height: 30px;
+}
+
+.contentContainer h4, a{
+    color: #64f4ac;
+    text-decoration: none;
+}
+
+ a:hover{
+    color: gray;
+}
+#about{
+    background-color: #25262a;
+    background-attachment: fixed;
+}
+
+.card{
+    background-color: #333;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
+}
+
+.card .bi{
+    color: #64f4ac;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.82) 0px 19px 43px !important;
+    transform: translate3d(0px, -1px, 0px) !important;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+.card-text{
+    color: gray;
+}
+
+#projects{
+    background-color: #333;
+}
+
+#projects .card{
+    background-color: #25262a;
+}
+
+#projects .btn:hover{
+    background-color: #25262a;
+}
+#certification{
+    background-color: #25262a !important;
+}
+#certification h6, #certification h1{
+    color: white !important;
+}
+#certification h3{
+    color: #64f4ac !important;
+}
+
+#certification h5{
+    color: gray;
+}
+
+@media only screen and (max-width:600px) {
+
+    .imageContainer img{
+        max-width: 200% !important;
+    }
+    
+}
